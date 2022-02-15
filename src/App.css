@@ -265,3 +265,21 @@ input {
   height: 40px;
   width: 40px;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.loggedInButtonInfo {
+  margin-bottom: 20px;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
