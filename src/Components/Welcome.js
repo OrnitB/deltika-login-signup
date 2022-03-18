@@ -165,7 +165,7 @@ const Welcome = () => {
               </button>
             </div>
             <div className="overlay-panel overlay-right">
-              <h1>Hello, Friend!</h1>
+              <h1>Nice to meet you!</h1>
               <p>
                 Sign up to find out what guides your AI’s predictions and make
                 smarter decisions
